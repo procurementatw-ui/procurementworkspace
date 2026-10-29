@@ -9522,6 +9522,96 @@ document.addEventListener('click',function(e){var b=e.target.closest&&e.target.c
 var tm;new MutationObserver(function(){clearTimeout(tm);tm=setTimeout(function(){try{run()}catch(e){console.warn('v19 reg',e)}},80)}).observe(document.body,{childList:true,subtree:true});
 })();
 </script>
-<script>(function(){var D=[['White collar (office staff)','White collar','白领员工'],['Car rental','Sewa Mobil','车辆租赁'],['Heavy equipment rental','Sewa Alat Berat','重型设备租赁'],['Subcontractor (PLTS, Civil)','Subcon (PLTS, Civil)','分包商（PLTS、土建）'],['Scaffolding rental','Sewa Scaffolding','脚手架租赁'],['If heavy equipment is rented monthly, PM approval is required','Jika alat berat disewa bulanan butuh approval PM','若重型设备按月租赁，需项目经理（PM）批准'],['Only attach the certificate on the IR','Hanya melampirkan sertifikat pada IR','仅需在 IR 中附上证书'],['If the rental value is above Rp 50 million, PM approval is required','Jika nilai sewa di atas 50 jt butuh approval PM','若租赁金额超过 5000 万印尼盾，需项目经理（PM）批准'],['Signing PIC for SJ/BAST (ATW project POs)','PIC penandatangan SJ/BAST (PO proyek ATW)','SJ/BAST 签署负责人（ATW 项目采购订单）']];function go(n){if(window.ATW29&&ATW29.A){D.forEach(function(r){try{ATW29.A(r[0],r[1],r[2])}catch(e){}})}else if(n<40)setTimeout(function(){go(n+1)},250)}go(0)})();</script></body>
+<script>(function(){var D=[['White collar (office staff)','White collar','白领员工'],['Car rental','Sewa Mobil','车辆租赁'],['Heavy equipment rental','Sewa Alat Berat','重型设备租赁'],['Subcontractor (PLTS, Civil)','Subcon (PLTS, Civil)','分包商（PLTS、土建）'],['Scaffolding rental','Sewa Scaffolding','脚手架租赁'],['If heavy equipment is rented monthly, PM approval is required','Jika alat berat disewa bulanan butuh approval PM','若重型设备按月租赁，需项目经理（PM）批准'],['Only attach the certificate on the IR','Hanya melampirkan sertifikat pada IR','仅需在 IR 中附上证书'],['If the rental value is above Rp 50 million, PM approval is required','Jika nilai sewa di atas 50 jt butuh approval PM','若租赁金额超过 5000 万印尼盾，需项目经理（PM）批准'],['Signing PIC for SJ/BAST (ATW project POs)','PIC penandatangan SJ/BAST (PO proyek ATW)','SJ/BAST 签署负责人（ATW 项目采购订单）']];function go(n){if(window.ATW29&&ATW29.A){D.forEach(function(r){try{ATW29.A(r[0],r[1],r[2])}catch(e){}})}else if(n<40)setTimeout(function(){go(n+1)},250)}go(0)})();</script><!-- ===== ATW MOBILE RESPONSIVE LAYER (CSS + one isolated menu script). No application function is changed. Paste right before </body>. ===== -->
+<style id="atw-mobile-responsive">
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+#atw-mbar{display:none}
+@media (max-width:820px){
+  html,body{max-width:100%;overflow-x:hidden}
+  body{-webkit-tap-highlight-color:transparent}
+  .app{display:block!important}
+  main{padding:12px 12px 96px!important;max-width:100%!important}
+  h1{font-size:17px}
+
+  /* menu bar + slide-in drawer (replaces the sideways-scrolling module strip) */
+  body:not(.vm) #atw-mbar{display:flex;align-items:center;gap:10px;position:sticky;top:env(safe-area-inset-top,0px);z-index:40;padding:8px 10px;background:var(--navy);color:#fff}
+  #atw-mbar button{min-height:40px;padding:0 14px;border:1px solid #ffffff55;border-radius:8px;background:#ffffff1f;color:#fff;font:600 14px inherit;cursor:pointer}
+  #atw-mbar span{font-weight:600;font-size:13px;opacity:.95;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  html body:not(.vm) #nav{position:fixed!important;left:0!important;top:0!important;bottom:0!important;align-self:auto!important;width:min(84vw,330px)!important;height:100%!important;max-height:none!important;display:block!important;overflow-x:hidden!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch;z-index:100700!important;padding:calc(12px + env(safe-area-inset-top,0px)) 8px calc(96px + env(safe-area-inset-bottom,0px))!important;transform:translateX(-105%);visibility:hidden;transition:transform .22s ease,visibility 0s linear .22s;box-shadow:6px 0 24px #0006}
+  html body:not(.vm).atw-navopen #nav{transform:none;visibility:visible;transition:transform .22s ease}
+  body.atw-navopen::after{content:"";position:fixed;inset:0;background:#0009;z-index:100600}
+  body.atw-navopen{overflow:hidden}
+  nav .logo{display:flex!important}
+  nav button{display:block;width:100%!important;text-align:left;white-space:normal!important;min-height:42px;padding-top:10px;padding-bottom:10px}
+
+  /* filter bar */
+  .top{position:static!important;display:flex;flex-wrap:wrap;gap:6px;padding:8px 10px}
+  .top .search{order:-1;flex:1 1 100%;min-width:0}
+  .top select{flex:1 1 calc(50% - 6px);min-width:0}
+  .top .btn{flex:1 1 auto}
+  .top .tag{flex:1 1 100%;text-align:center}
+  .vh{padding:8px 10px;gap:8px;flex-wrap:wrap}
+
+  /* touch-friendly controls (16px stops iOS zoom on focus) */
+  input,select,textarea{font-size:16px!important;min-height:42px;max-width:100%}
+  textarea{min-height:84px}
+  .btn{min-height:40px}
+  td .btn,th .btn{min-height:32px}
+
+  /* layout: single column, cards, grids */
+  .card{padding:12px}
+  .f{grid-template-columns:1fr!important}
+  .grid.two,.two{grid-template-columns:1fr!important}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  main [style*="grid-template-columns"]{grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr))!important}
+  main [style*="display:flex"],main [style*="display: flex"]{flex-wrap:wrap}
+  .hero{padding:14px}
+
+  /* tables scroll sideways inside their own box, never the whole page */
+  .wrap,.v9tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  main table:not(.wrap table):not(.v9tw table){display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  pre,code{max-width:100%;overflow-x:auto}
+  img,video,canvas{max-width:100%}
+
+  /* dialogs, login gate, footer */
+  .gate{padding:12px}
+  [id$="dlg"]>.card,#po764dlg>.card,#v94-dlg>.card{margin:12px auto!important;max-width:100%!important}
+  #atw-mailrcpt{left:8px!important;right:8px!important;width:auto!important;bottom:8px!important}
+  .fgrid{grid-template-columns:1fr!important;gap:18px!important}
+  .v9{padding-bottom:96px}
+  .v9g{grid-template-columns:repeat(2,minmax(0,1fr))}
+
+  /* floating buttons: keep them apart so nothing overlaps */
+  .toast{left:12px!important;right:12px!important;bottom:calc(70px + env(safe-area-inset-bottom,0px))!important}
+  #atw24-lang{bottom:calc(10px + env(safe-area-inset-bottom,0px))!important;max-width:58vw}
+  #v16-fab{bottom:calc(58px + env(safe-area-inset-bottom,0px))!important}
+  #ai10 .fab,#v18ai .fab,#v25ai,#v29ai{right:12px!important}
+}
+</style>
+<script id="atw-mobile-nav">
+(function(){
+  if(window.__atwMobileNav)return;window.__atwMobileNav=1;
+  function init(){
+    var top=document.querySelector('.top');
+    if(!top||document.getElementById('atw-mbar'))return;
+    var bar=document.createElement('div');bar.id='atw-mbar';
+    bar.innerHTML='<button type="button" id="atw-mbtn" aria-label="Open menu" aria-expanded="false">\u2630 Menu</button><span>ATW Source \u00b7 E-Procurement</span>';
+    top.parentNode.insertBefore(bar,top);
+    var body=document.body,btn=document.getElementById('atw-mbtn');
+    function set(o){body.classList.toggle('atw-navopen',o);btn.setAttribute('aria-expanded',o?'true':'false')}
+    /* capture phase: decide before the app re-renders the menu */
+    document.addEventListener('click',function(e){
+      if(e.target.closest&&e.target.closest('#atw-mbtn')){set(!body.classList.contains('atw-navopen'));return}
+      if(!body.classList.contains('atw-navopen'))return;
+      var t=e.target;
+      if(!(t.closest&&t.closest('#nav'))||(t.closest&&t.closest('#nav [data-m]')))set(false);
+    },true);
+    document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false)});
+    window.addEventListener('resize',function(){if(window.innerWidth>820)set(false)});
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+})();
+</script>
+</body>
 <!-- v7.64: Procurement-finalized quotation/RFQ terms in generated PO. -->
 </html>
