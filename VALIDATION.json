@@ -1,0 +1,290 @@
+{
+  "release": "ATW Source v106 Refined",
+  "changes": {
+    "previousAtwPaletteRetained": true,
+    "desktopHeaderPx": 60,
+    "sidebarPx": 224,
+    "singlePageActionBar": true,
+    "freeQuestionSendAndEnter": true,
+    "freeQuestionUsesPermittedAtwSourceInformation": true,
+    "freeQuestionExternalProvider": false,
+    "currentPicDerivedFromWorkflow": true,
+    "currentPicReadOnly": true,
+    "currentPicPreservesDecisionHistory": true,
+    "completedChecks": [
+      "recorded approvals",
+      "receiving quantities and UOM",
+      "invoice and bill states",
+      "confirmed payment and currency",
+      "open closeout tasks"
+    ]
+  },
+  "characterAudio": {
+    "languages": [
+      "en",
+      "id",
+      "zh"
+    ],
+    "clips": 87,
+    "liveExternalSpeech": false,
+    "genericCuesOnly": false,
+    "recordedGuidanceOnly": true,
+    "dynamicAnswers": "Matching device-local voice; no unrelated recorded fallback",
+    "transcriptLanguageChanges": true,
+    "earlySendClickDispatcher": true
+  },
+  "standbyAfterMs": 45000,
+  "technicalParagraphsRemoved": 68,
+  "requestSubmission": {
+    "personalProcurement": false,
+    "verifiedDivisionMailbox": true,
+    "mailbox": "procurement@atwsolar.com",
+    "registeredPicRequired": true
+  },
+  "documentReview": {
+    "types": 11,
+    "languages": [
+      "en",
+      "id",
+      "zh"
+    ],
+    "rereadOnLanguageChange": false,
+    "externalTranslationEndpoint": false,
+    "arbitraryProseTranslation": "Only when an already available on-device browser model supports the language pair; original evidence is retained."
+  },
+  "presentation": {
+    "fonts": [
+      "Inter",
+      "ATW Source SC"
+    ],
+    "remoteFontFetch": false,
+    "favicon": "Approved ATLAS character head; inherited duplicate icons removed",
+    "tableWordBreak": "normal",
+    "wideTableScroll": "panel"
+  },
+  "procurementRequester": "procurement@atwsolar.com",
+  "preparedForTimezone": "Asia/Bangkok",
+  "preparedOn": "2026-11-17",
+  "applicationSha256": "0f76017b4db56c45ef3c8a9912860720e8789a67a90203f89e128889858c2b81",
+  "standaloneSha256": "f0b0fb217b0f3a2e6c55f1ef2c7945651f4d72a0ad2f65623de51cc4934b5834",
+  "totalBehaviorAndIntegrityChecks": 335,
+  "moduleNavigations": 84,
+  "detectedErrors": 0,
+  "failedChecks": 0,
+  "suites": [
+    {
+      "suite": "access-Procurement_Senior_Manager",
+      "checks": 8,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "audio-assets",
+      "checks": 7,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "bars-Procurement_Senior_Manager",
+      "checks": 13,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "business-Procurement_Senior_Manager",
+      "checks": 22,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "choices-Procurement_Senior_Manager",
+      "checks": 11,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "companion-Procurement_Senior_Manager",
+      "checks": 30,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "conversation-Procurement_Senior_Manager",
+      "checks": 11,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "documents-Procurement_Senior_Manager",
+      "checks": 9,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "followups-Procurement_Senior_Manager",
+      "checks": 18,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "fonts",
+      "checks": 2,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "free-Procurement_Senior_Manager",
+      "checks": 15,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "integration-Procurement_Senior_Manager",
+      "checks": 28,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "integrity",
+      "checks": 17,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "intelligence-Procurement_Senior_Manager",
+      "checks": 19,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "invitations-Procurement_Senior_Manager",
+      "checks": 9,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "nav-Procurement_Senior_Manager-0",
+      "checks": 0,
+      "navigation": 18,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "nav-Procurement_Senior_Manager-18",
+      "checks": 0,
+      "navigation": 18,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "nav-Procurement_Senior_Manager-36",
+      "checks": 0,
+      "navigation": 18,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "nav-Procurement_Senior_Manager-54",
+      "checks": 0,
+      "navigation": 18,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "nav-Procurement_Senior_Manager-72",
+      "checks": 0,
+      "navigation": 12,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "pic-Procurement_Senior_Manager",
+      "checks": 44,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "refinement-Procurement_Senior_Manager",
+      "checks": 39,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "registration-Procurement_Senior_Manager",
+      "checks": 12,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "regression-run",
+      "checks": 0,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "requests-Procurement_Senior_Manager",
+      "checks": 12,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    },
+    {
+      "suite": "voice-Procurement_Senior_Manager",
+      "checks": 9,
+      "navigation": 0,
+      "detectedErrors": 0,
+      "failures": 0
+    }
+  ],
+  "preservedSourceData": {
+    "domains": 38,
+    "rows": 858,
+    "originalFields": 10933
+  },
+  "registration": {
+    "originalTemplates": 2,
+    "bankConfirmationRequired": true,
+    "optionalUploads": [
+      "NPWP",
+      "Relevant Certifications",
+      "Product Catalogues",
+      "ISO Certificates",
+      "Other Supporting Documents",
+      "Signed Declaration Form",
+      "Signed Tax Statement"
+    ],
+    "templateBytesVerified": true,
+    "accountStatus": "Provisional -P; approval required for Active status"
+  },
+  "nativeDesktopVisualVerified": false,
+  "physicalPhoneVerified": false,
+  "published": false,
+  "limitations": [
+    "Behavior and navigation checks were run against the final build in a DOM harness with selected browser APIs simulated. All 87 MP3 files were decoded with the real media decoder.",
+    "Browser reproduction was blocked by the file-URL policy and a localhost-preview timeout. Full native-browser interaction, physical-phone layout and native browser OCR execution were not verified.",
+    "PDF parsing and real local OCR were tested with packaged engines; offline worker configuration and real WASM were evaluated separately.",
+    "Answer speech, language switching and recording playback were tested with simulated device voices and media events; actual browser voice availability, playback and subjective sound quality were not verified.",
+    "Static browser accounts, storage and workflow checks are not shared server authentication or authorization. Operational deployment requires a company server with server-side access control, shared persistence, document storage, notifications and integration adapters.",
+    "ATLAS uses ATW Source data and its packaged generic character recordings. The live fallback considers only device-local voices. No external AI, business-data or speech service is connected at runtime.",
+    "Planning quantities are editable engineering assumptions. Missing eligible price evidence keeps the budget incomplete."
+  ]
+}

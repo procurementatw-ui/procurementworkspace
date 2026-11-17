@@ -1,0 +1,30 @@
+[
+  {
+    "key": "canvas",
+    "file": "html2canvas-1.4.1.min.js",
+    "bytes": 198689,
+    "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb",
+    "sourceMapRemovedForEmbeddedCopy": false
+  },
+  {
+    "key": "pdf",
+    "file": "jspdf-4.2.1.umd.min.js",
+    "bytes": 420165,
+    "sha256": "e6551fcdc32f09d6853b2c5126d18d01d9447e0da618a41a11ebeee0f6c20d54",
+    "sourceMapRemovedForEmbeddedCopy": true
+  },
+  {
+    "key": "qr",
+    "file": "qrcode-1.4.4.min.js",
+    "bytes": 20387,
+    "sha256": "164fc2c1c9eaf0a03aa8dfdb855e82e41a5c6922fbad8bb3238116207e26bef7",
+    "sourceMapRemovedForEmbeddedCopy": false
+  },
+  {
+    "key": "xlsx",
+    "file": "xlsx-0.18.5.full.min.js",
+    "bytes": 881727,
+    "sha256": "c9506197caf809a075b6dee1da0d36fb19da7158ffe8a88e7b0c96c5d8623c99",
+    "sourceMapRemovedForEmbeddedCopy": false
+  }
+]

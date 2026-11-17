@@ -1,0 +1,17 @@
+{
+  "asset": "atlas-head.png",
+  "method": "Built-in imagegen edit; background extraction from the supplied ATLAS head. The rejected cart-badge version is excluded.",
+  "prompt": "Remove the checkerboard background, preserve the existing ATLAS robot head identity and ATW branding; true transparent alpha; no cart, badge or additional objects.",
+  "faviconSizes": [
+    16,
+    32,
+    48,
+    64
+  ],
+  "generatedSource": "atlas-original-cutout.png",
+  "browserIcons": {
+    "identity": "ATLAS character head",
+    "source": "Original approved ATLAS head exports from v104; restored at user request",
+    "chatbotAsset": "atlas-head.png (unchanged)"
+  }
+}
